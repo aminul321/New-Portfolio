@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<nav class="nav" style="position:sticky;top:0;z-index:30;padding-inline:max(20px,calc((100% - 1200px) / 2 + 20px));background:color-mix(in srgb, var(--color-bg) 82%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--color-divider);">
+  <a href="./Home.dc.html" class="nav-brand">Aminul Islam Rana</a>
+  <a href="./Home.dc.html" aria-current="{{ homeCurrent }}">Home</a>
+  <a href="./Work.dc.html" aria-current="{{ workCurrent }}">Work</a>
+  <a href="./About.dc.html" aria-current="{{ aboutCurrent }}">About</a>
+  <a href="./Contact.dc.html" aria-current="{{ contactCurrent }}">Contact</a>
+  <a href="./assets/Aminul-Islam-Rana-CV.pdf" class="btn btn-primary" download="Aminul-Islam-Rana-CV.pdf">Download CV</a>
+</nav>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    const active = this.props.active;
+    const cur = (key) => active === key ? 'page' : undefined;
+    return {
+      homeCurrent: cur('home'),
+      workCurrent: cur('work'),
+      aboutCurrent: cur('about'),
+      contactCurrent: cur('contact'),
+    };
+  }
+}
+</script>
+</body>
+</html>
