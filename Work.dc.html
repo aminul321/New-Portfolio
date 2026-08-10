@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/nocturne-2121ad0c-f8d5-4222-9df2-316db2e31b2f/styles.css">
+<script src="_ds/nocturne-2121ad0c-f8d5-4222-9df2-316db2e31b2f/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<style>
+body{margin:0;background:
+  radial-gradient(1400px 820px at 78% -180px, color-mix(in srgb, var(--color-accent-700) 40%, transparent), transparent 64%),
+  radial-gradient(1000px 700px at -10% 100%, color-mix(in srgb, var(--color-neutral-900) 32%, transparent), transparent 58%),
+  var(--color-bg);
+text-wrap:pretty;}
+</style>
+</helmet>
+<div style="--leading:28px;--half:14px;--edge:clamp(20px,5vw,72px);">
+<dc-import name="Nav" active="work" hint-size="100%,60px"></dc-import>
+
+<div style="max-width:1200px;margin:0 auto;padding:0 var(--edge);">
+
+  <section style="padding:calc(3.5*var(--leading)) 0 calc(2*var(--leading));">
+    <span style="position:relative;display:block;padding-left:56px;font-size:13px;line-height:14px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;" style-before="content:'';position:absolute;left:0;top:6px;width:44px;height:1px;background:var(--color-accent);">Selected work</span>
+    <h1 style="font-family:var(--font-heading);font-weight:500;font-size:clamp(36px,5vw,56px);line-height:1.1;letter-spacing:-0.015em;margin:0;color:var(--color-text);">Work</h1>
+    <p style="font-size:17px;line-height:var(--leading);max-width:60ch;margin:var(--half) 0 0;color:color-mix(in srgb, var(--color-text) 80%, transparent);">A selection of mobile apps, SaaS platforms, and enterprise systems designed end-to-end — research, flows, UI systems, and developer handoff — for startups and international clients.</p>
+  </section>
+
+  <section style="padding:calc(1.5*var(--leading)) 0 calc(3*var(--leading));">
+    <span style="position:relative;display:block;padding-left:56px;font-size:13px;line-height:14px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;" style-before="content:'';position:absolute;left:0;top:6px;width:44px;height:1px;background:var(--color-accent);">Flagship engagement</span>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(24px,5vw,64px);align-items:start;">
+      <div>
+        <h2 style="font-family:var(--font-heading);font-weight:500;font-size:30px;line-height:1.2;letter-spacing:-0.012em;margin:0 0 12px;color:var(--color-text);">Enterprise SaaS platform, Denmark</h2>
+        <p style="font-size:15.5px;line-height:var(--leading);margin:0;max-width:56ch;color:color-mix(in srgb, var(--color-text) 80%, transparent);">Led end-to-end design across mobile applications, SaaS platforms, and enterprise systems for long-term international client projects — including one SaaS engagement that ran approximately 3.5 years with a client in Denmark. Owned the full design process: user flows, wireframes, UI systems, testing, and developer handoff.</p>
+      </div>
+      <div class="card elev-md" style="width:min(340px,100%);">
+        <span class="card-kicker">At a glance</span>
+        <p class="card-title" style="margin:4px 0 2px;">Genie InfoTech · Denmark client</p>
+        <p class="card-body">~3.5 years of continuous engagement, full design ownership from flows to handoff.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;">
+          <span class="tag tag-outline">Figma</span>
+          <span class="tag tag-outline">Miro</span>
+          <span class="tag tag-outline">Adobe XD</span>
+          <span class="tag tag-outline">Zeplin</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr style="height:1px;border:0;margin:0;background:linear-gradient(to right, transparent, var(--color-divider) 48px, var(--color-divider) calc(100% - 48px), transparent);" />
+
+  <section style="padding:calc(2.5*var(--leading)) 0 calc(3*var(--leading));">
+    <span style="position:relative;display:block;padding-left:56px;font-size:13px;line-height:14px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;" style-before="content:'';position:absolute;left:0;top:6px;width:44px;height:1px;background:var(--color-accent);">Also shipped</span>
+    <h2 style="font-family:var(--font-heading);font-weight:500;font-size:26px;line-height:1.2;margin:0 0 6px;color:var(--color-text);">Nine-plus mobile apps at Genie InfoTech.</h2>
+    <p style="font-size:15px;line-height:var(--leading);margin:0 0 var(--leading);max-width:56ch;color:color-mix(in srgb, var(--color-text) 70%, transparent);">2021–2026 · Dhaka, Bangladesh. Screens below are placeholders — drop in real screens any time.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--leading);">
+      <div>
+        <image-slot id="work-maway" shape="rounded" radius="12" placeholder="Drop a Maway screen" style="width:100%;aspect-ratio:4/3;"></image-slot>
+        <h3 style="font-size:18px;margin:14px 0 4px;color:var(--color-text);">Maway</h3>
+        <span class="tag tag-accent">Mobile app design</span>
+      </div>
+      <div>
+        <image-slot id="work-limadi" shape="rounded" radius="12" placeholder="Drop a Limadi screen" style="width:100%;aspect-ratio:4/3;"></image-slot>
+        <h3 style="font-size:18px;margin:14px 0 4px;color:var(--color-text);">Limadi</h3>
+        <span class="tag tag-outline">Mobile app design</span>
+      </div>
+      <div>
+        <image-slot id="work-athkar" shape="rounded" radius="12" placeholder="Drop an Athkar screen" style="width:100%;aspect-ratio:4/3;"></image-slot>
+        <h3 style="font-size:18px;margin:14px 0 4px;color:var(--color-text);">Athkar</h3>
+        <span class="tag tag-neutral">Mobile app design</span>
+      </div>
+      <div>
+        <image-slot id="work-gifty" shape="rounded" radius="12" placeholder="Drop a Gifty screen" style="width:100%;aspect-ratio:4/3;"></image-slot>
+        <h3 style="font-size:18px;margin:14px 0 4px;color:var(--color-text);">Gifty</h3>
+        <span class="tag tag-accent-2">Mobile app design</span>
+      </div>
+    </div>
+  </section>
+
+  <hr style="height:1px;border:0;margin:0;background:linear-gradient(to right, transparent, var(--color-divider) 48px, var(--color-divider) calc(100% - 48px), transparent);" />
+
+  <section style="padding:calc(2.5*var(--leading)) 0 calc(3*var(--leading));">
+    <span style="position:relative;display:block;padding-left:56px;font-size:13px;line-height:14px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;" style-before="content:'';position:absolute;left:0;top:6px;width:44px;height:1px;background:var(--color-accent);">Other engagements</span>
+    <div style="display:flex;flex-wrap:wrap;gap:16px 32px;padding:20px 0;border-top:1px solid var(--color-divider);align-items:baseline;">
+      <div style="display:flex;gap:16px;align-items:baseline;flex:1 1 280px;">
+        <span style="color:var(--color-accent);font-family:var(--font-heading);font-weight:500;font-size:14px;">01</span>
+        <div>
+          <h4 style="font-size:18px;margin:0 0 2px;color:var(--color-text);">Doodle's Design</h4>
+          <p style="font-size:13px;margin:0;color:color-mix(in srgb, var(--color-text) 60%, transparent);">UI/UX Designer (Part-Time) · Jan–Jun 2022</p>
+        </div>
+      </div>
+      <p style="flex:2 1 320px;font-size:15px;line-height:var(--leading);margin:0;color:color-mix(in srgb, var(--color-text) 78%, transparent);max-width:52ch;">Translated client requirements into high-fidelity UI designs for web and mobile, working remotely in a fast-paced, collaborative environment.</p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:16px 32px;padding:20px 0;border-top:1px solid var(--color-divider);align-items:baseline;">
+      <div style="display:flex;gap:16px;align-items:baseline;flex:1 1 280px;">
+        <span style="color:var(--color-accent);font-family:var(--font-heading);font-weight:500;font-size:14px;">02</span>
+        <div>
+          <h4 style="font-size:18px;margin:0 0 2px;color:var(--color-text);">Daktarbhai App</h4>
+          <p style="font-size:13px;margin:0;color:color-mix(in srgb, var(--color-text) 60%, transparent);">Junior UI/UX Designer (Freelance) · Jun–Aug 2021</p>
+        </div>
+      </div>
+      <p style="flex:2 1 320px;font-size:15px;line-height:var(--leading);margin:0;color:color-mix(in srgb, var(--color-text) 78%, transparent);max-width:52ch;">Redesigned a medical mobile app UI for improved usability and new features.</p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:16px 32px;padding:20px 0;border-top:1px solid var(--color-divider);align-items:baseline;">
+      <div style="display:flex;gap:16px;align-items:baseline;flex:1 1 280px;">
+        <span style="color:var(--color-accent);font-family:var(--font-heading);font-weight:500;font-size:14px;">03</span>
+        <div>
+          <h4 style="font-size:18px;margin:0 0 2px;color:var(--color-text);">Fiverr · Level 2 Seller</h4>
+          <p style="font-size:13px;margin:0;color:color-mix(in srgb, var(--color-text) 60%, transparent);">Freelance Graphic Designer · 2017–Present</p>
+        </div>
+      </div>
+      <p style="flex:2 1 320px;font-size:15px;line-height:var(--leading);margin:0;color:color-mix(in srgb, var(--color-text) 78%, transparent);max-width:52ch;">Delivered 200+ projects, including logo and t-shirt design work.</p>
+    </div>
+  </section>
+
+  <hr style="height:1px;border:0;margin:0;background:linear-gradient(to right, transparent, var(--color-divider) 48px, var(--color-divider) calc(100% - 48px), transparent);" />
+
+  <section style="padding:calc(2.5*var(--leading)) 0 calc(2*var(--leading));">
+    <h3 style="font-family:var(--font-heading);font-weight:500;font-size:26px;margin:0;color:var(--color-text);">Have a product that needs design?</h3>
+    <p style="font-size:15.5px;line-height:var(--leading);color:color-mix(in srgb, var(--color-text) 78%, transparent);margin:var(--half) 0 0;max-width:60ch;">Open to remote and international product design work.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:var(--leading);">
+      <a href="./Contact.dc.html" class="btn btn-primary">Contact me</a>
+      <a href="./assets/Aminul-Islam-Rana-CV.pdf" class="btn btn-secondary" download="Aminul-Islam-Rana-CV.pdf">Download CV</a>
+    </div>
+  </section>
+
+  <footer style="padding:calc(2*var(--leading)) 0 calc(2.5*var(--leading));display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:13px;color:color-mix(in srgb, var(--color-text) 55%, transparent);border-top:1px solid var(--color-divider);">
+    <span>© 2026 Aminul Islam Rana</span>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;">
+      <a href="mailto:aminulislamrana321@gmail.com" style="color:inherit;text-decoration:none;" style-hover="color:var(--color-accent);">aminulislamrana321@gmail.com</a>
+      <a href="tel:+8801923285751" style="color:inherit;text-decoration:none;" style-hover="color:var(--color-accent);">01923285751</a>
+      <a href="#" style="color:inherit;text-decoration:none;" style-hover="color:var(--color-accent);">LinkedIn</a>
+      <a href="#" style="color:inherit;text-decoration:none;" style-hover="color:var(--color-accent);">Behance</a>
+      <a href="#" style="color:inherit;text-decoration:none;" style-hover="color:var(--color-accent);">Medium</a>
+    </div>
+  </footer>
+</div>
+</div>
+</x-dc>
+</body>
+</html>
